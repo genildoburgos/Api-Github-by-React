@@ -16,7 +16,6 @@ export const Header = styled.div`
 
 `;
 
-
 export const Avatar = styled.img`
     align-self: center;
     border-radius: 50%;
@@ -45,7 +44,7 @@ export const Name = styled.h2`
 `;
 
 export const Inner = styled.div`
-    padding: 1rem;
+    padding: 1rem 0;
 
     @media screen and (max-width: ${(props) => props.theme.breakPoints.md}){
         display: none;
